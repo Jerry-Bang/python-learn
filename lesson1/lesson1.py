@@ -1,25 +1,26 @@
-import turtle
+import turtle as tl
 
-turtle.pensize(4)
-turtle.pencolor("red")
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
+tl.pensize(4)
+tl.hideturtle()
+tl.pencolor("red")
+tl.forward(100)
+tl.right(90)
+tl.forward(100)
+tl.right(90)
+tl.forward(100)
+tl.right(90)
+tl.forward(100)
 
-turtle.pencolor('green')
-turtle.circle(100)
+tl.pencolor('green')
+tl.circle(100)
 
-turtle.forward(100)
-turtle.right(45)
-turtle.forward(100)
+tl.forward(100)
+tl.right(45)
+tl.forward(100)
 
 
 
-turtle.mainloop()
+tl.mainloop()
 
 
 
